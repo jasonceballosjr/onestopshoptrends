@@ -36,7 +36,7 @@ const Blog = () => {
             </div>
             <div className='blog-bloglink'>
               <form action={blog.bloglink} target='_Blank'>
-                    <button>Check it out!</button>
+                    <button>Check it Out!</button>
               </form>
               </div>   
           </header>

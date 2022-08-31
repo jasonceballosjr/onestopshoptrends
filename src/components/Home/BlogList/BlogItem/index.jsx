@@ -30,7 +30,7 @@ const BlogItem = ({
           </div>
         </div>
         <Link className='blogItem-link' to={`/blog/${id}`}>
-          ➝
+          Link Inside ➤
         </Link>
       </footer>
     </div>
