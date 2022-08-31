@@ -31,12 +31,17 @@ const Blog = () => {
               {blog.subCategory.map((category, i) => (
                 <div key={i}>
                   <Chip label={category} />
-                </div>
-              ))}
+                </div>  
+              ))}             
             </div>
+            <div className='blog-bloglink'>
+              <form action={blog.bloglink} target='_Blank'>
+                    <button>Check it out!</button>
+              </form>
+              </div>   
           </header>
           <img src={blog.cover} alt='cover' />
-          <p className='blog-desc'>{blog.description}</p>
+          <p className='blog-desc'>{blog.description}</p>   
         </div>
       ) : (
         <EmptyList />

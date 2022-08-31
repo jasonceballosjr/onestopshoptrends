@@ -13,6 +13,7 @@
 }
 .blog-wrap header {
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .blog-date {
@@ -35,4 +36,33 @@
 .blog-desc {
   padding: 1rem;
   margin-top: 1.5rem;
+}
+
+.blog-wrap button {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  background: linear-gradient(130deg, #eaff2d, #ff8585, #09ffca);
+  background-size: 200% 200%;
+  cursor: pointer;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
 }
