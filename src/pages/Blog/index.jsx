@@ -15,7 +15,6 @@ const Blog = () => {
     if (blog) {
       setBlog(blog);
     }
-  // eslint-disable-next-line
   }, []); 
 
   return (
