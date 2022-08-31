@@ -9,6 +9,6 @@ export const blogList = [
     authorName: 'Jason Ceballos',
     authorAvatar: '/assets/images/jason.JPG',
     createdAt: 'August 30th, 2022',
-    cover: '/assets/images/logo.JPG',
+    cover: '/assets/images/osstlogo.JPG',
   },
 ];
