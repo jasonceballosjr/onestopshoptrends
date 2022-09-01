@@ -26,4 +26,17 @@ export const blogList = [
     cover: '/assets/images/hpsprocket.jpg',
     bloglink: 'https://amzn.to/3cENuFG',
   },
+  {
+    id: 3,
+    title: 'Exfoliating Facial Sponges',
+    category: 'Shower',
+    subCategory: ['Accessories','TikTok','Skincare'],
+    description:
+      "Compressed Sponges! These sponges expand when they are wet, and are designed to give your skin a deep clean with its exfoliating textures. Most sponges take up so much space, but not these! When you click the link above, you'll find that there are two options. You can choose from a 40 count and a 52 count. In my opinion, the price for these is exponentially less than if you were to constantly buy name brand. It's all the same material! I enjoy this product because it reminds me of those little capsules I had as a kid. I would take a bath and then the capsule would dissolve and expand in the water into a WHOLE TOWEL! I'm sure I speak for everyone when I say, I love hydration. Check out this product and many more in the link above! Disclosure: Links contain affiliates. When you buy through one of our links we will receive a commission. This is at no cost to you. Thank you! We hope to have you again soon to check out the next latest and trendiest product. ",
+    authorName: 'Jason Ceballos',
+    authorAvatar: '/assets/images/jasonc.jpg',
+    createdAt: 'September 1st, 2022',
+    cover: '/assets/images/facialsponge.jpg',
+    bloglink: 'https://amzn.to/3TxFqXB',
+  },
 ];
