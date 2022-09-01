@@ -1,7 +1,20 @@
 export const blogList = [
-  
   {
     id: 1,
+    title: 'Doomlings Card Game',
+    category: 'Games',
+    subCategory: ['Games','TikTok','Family'],
+    description:
+      "DOOMLINGS! This game is insanely fun for friends and family! If you like games like Exploding Kittens or Throw Throw Burrito, this is the game for you. It's chaotic in a fun way and is easy to learn. Once you click the link above to check this out on Amazon, you'll soon find out that this will be your favorite card game in your collection. Personally, I love games like this with creative card designs and wacky affects. There is just enough strategy to stimulate the mind, yet easy enough to teach others very quickly. No one will get left out! Check out Doomlings now, in the link above! Disclosure: Links contain affiliates. When you buy through one of our links we will receive a commission. This is at no cost to you. Thank you! We hope to have you again soon to check out the next latest and trendiest product. ",
+    authorName: 'Jason Ceballos',
+    authorAvatar: '/assets/images/jasonc.jpg',
+    createdAt: 'September 1st, 2022',
+    cover: '/assets/images/doomlings.jpg',
+    bloglink: 'https://amzn.to/3cDbatS',
+  },
+
+  {
+    id: 2,
     title: 'Trendy Shower Back Scrubber!',
     category: 'Shower',
     subCategory: ['Accessories','TikTok','Home'],
@@ -13,8 +26,9 @@ export const blogList = [
     cover: '/assets/images/backscrub-product1.jpg',
     bloglink: 'https://amzn.to/3Q4453k',
   },
+
   {
-    id: 2,
+    id: 3,
     title: 'HP Sprocket Instant Photo Printer!',
     category: 'Phone',
     subCategory: ['Accessories','TikTok','Technology','Phone'],
@@ -26,8 +40,9 @@ export const blogList = [
     cover: '/assets/images/hpsprocket.jpg',
     bloglink: 'https://amzn.to/3cENuFG',
   },
+
   {
-    id: 3,
+    id: 4,
     title: 'Exfoliating Facial Sponges',
     category: 'Shower',
     subCategory: ['Accessories','TikTok','Skincare'],
