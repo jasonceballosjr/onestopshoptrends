@@ -15,6 +15,34 @@ export const blogList = [
 
   {
     id: 2,
+    title: 'Telescopic Stool with Mobile Charger',
+    category: 'Gadget',
+    subCategory: ['Stool','TikTok','Outdoor','Indoor'],
+    description:
+      "The Telescopic stool with the mobile charger is a game changer for a lot reasons. It collapses into a disk that makes it easy to pack for travelling. One of my favorite uses for this product are for festivals. If you're ever at a fair or a fesitval, sometimes it's hard to find a place to sit. This makes it easy, where you can whip it out and pop a squat. Not only that, you can charge your phone at the same time! Finding a seat and filtering the ones out that aren't by a outlet are no longer an issue. Check this product out on Amazon! Link right above! Disclosure: Links contain affiliates. When you buy through one of our links we will receive a commission. This is at no cost to you. Thank you! We hope to have you again soon to check out the next latest and trendiest product. ",
+    authorName: 'Jason Ceballos',
+    authorAvatar: '/assets/images/jasonc.jpg',
+    createdAt: 'September 5th, 2022',
+    cover: '/assets/images/telestool.jpg',
+    bloglink: 'https://amzn.to/3RFhZKg',
+  },
+
+  {
+    id: 3,
+    title: 'COOLIFE 3 Piece Luggage',
+    category: 'Travel',
+    subCategory: ['Luggage','TikTok'],
+    description:
+      "Hello Travelers! Todays great deal comes at you with a 3 PIECE luggage set from COOLIFE. For just under $200, you can get quality luggage for you, but this also makes an amazing gift. With a wide array of color combinations to choose from, you are guaranteed to find a style that you like. I really enjoy travelling, but it's always the suitcase that comes to be a problem. One time I spent over $120 for just 1 medium suitcase. I had to shave down a weeks worth of clothing to fit, which I wasn't a fan of. Knowing that COOLIFE is selling a 3 piece suitcase set at a high discount, I have to go for it! They give you small, medium, and large! With a TSA-Approved Lock, going through TSA will be a breeze and I won't have to worry about anything getting stolen. Check out COOLIFE and this amazing deal on Amazon, link just above! Disclosure: Links contain affiliates. When you buy through one of our links we will receive a commission. This is at no cost to you. Thank you! We hope to have you again soon to check out the next latest and trendiest product. ",
+    authorName: 'Jason Ceballos',
+    authorAvatar: '/assets/images/jasonc.jpg',
+    createdAt: 'September 5th, 2022',
+    cover: '/assets/images/coolife.jpg',
+    bloglink: 'https://amzn.to/3ANMLd7',
+  },
+
+  {
+    id: 4,
     title: 'Trendy Shower Back Scrubber!',
     category: 'Shower',
     subCategory: ['Accessories','TikTok','Home'],
@@ -28,7 +56,7 @@ export const blogList = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: 'HP Sprocket Instant Photo Printer!',
     category: 'Phone',
     subCategory: ['Accessories','TikTok','Technology','Phone'],
@@ -42,7 +70,7 @@ export const blogList = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: 'Exfoliating Facial Sponges',
     category: 'Shower',
     subCategory: ['Accessories','TikTok','Skincare'],
