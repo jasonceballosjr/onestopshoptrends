@@ -1,6 +1,20 @@
 export const blogList = [
   {
     id: 1,
+    title: 'Coop Pillow',
+    category: 'Home',
+    subCategory: ['TikTok','Home','Bed'],
+    description:
+      "Take a look at Coop Pillow! With over 50,000 reviews and sitting at 4.5/5 stars, it's quite easy to see that this will be one of the most comfortable pillows in your bed arsenal. With a diverse amount of layers to customize with whatever filling you'd like, you can make the pillow feel exactly how you want it too! Coop only uses the highest quality of materials when they are creating their pillows, almost as if they enjoy sleeping as much as you do. Take a look at Coop Pillow on Amazon by clicking the link above! Disclosure: Links contain affiliates. When you buy through one of our links we will receive a commission. This is at no cost to you. Thank you! We hope to have you again soon to check out the next latest and trendiest product. ",
+    authorName: 'Jason Ceballos',
+    authorAvatar: '/assets/images/jasonc.jpg',
+    createdAt: 'September 15th, 2022',
+    cover: '/assets/images/coop.jpg',
+    bloglink: 'https://amzn.to/3S4CSPX',
+  },
+
+  {
+    id: 2,
     title: 'Doomlings Card Game',
     category: 'Games',
     subCategory: ['Games','TikTok','Family'],
@@ -14,7 +28,7 @@ export const blogList = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'Telescopic Stool with Mobile Charger',
     category: 'Gadget',
     subCategory: ['Stool','TikTok','Outdoor','Indoor'],
@@ -28,7 +42,7 @@ export const blogList = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: 'COOLIFE 3 Piece Luggage',
     category: 'Travel',
     subCategory: ['Luggage','TikTok'],
@@ -42,7 +56,7 @@ export const blogList = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Trendy Shower Back Scrubber!',
     category: 'Shower',
     subCategory: ['Accessories','TikTok','Home'],
@@ -56,7 +70,7 @@ export const blogList = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'HP Sprocket Instant Photo Printer!',
     category: 'Phone',
     subCategory: ['Accessories','TikTok','Technology','Phone'],
@@ -70,7 +84,7 @@ export const blogList = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: 'Exfoliating Facial Sponges',
     category: 'Shower',
     subCategory: ['Accessories','TikTok','Skincare'],
